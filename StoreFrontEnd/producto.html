@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Store</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="img/logo.png" alt="Logotipo">
+    </a>
+  </header>
+
+  <!--Navegacion-->
+  <nav class="nav">
+    <a class="nav__enlace" href="index.html">tienda</a>
+    <a class="nav__enlace" href="nosotros.html">nosotros</a>
+  </nav>
+
+  <!--Productos-->
+  <main class="contenedor">
+    <h1>React JS</h1>
+    <section class="camisa">
+      <img class="camisa__imagen" src="img/3.jpg" alt="Cammisa React JS">
+      <div class="camisa__contenido">
+        <p>
+          maecenas consectrut ultrcities mi cel venaties. curabitur sirus tellus, congue non tellus at, semper dapibus
+          turpis. duis pellentesuq, tisus amet sit placerat porttitot, torto augue colutapat ante, non disgnisissm odio
+          lingula at arcu.
+        </p>
+        <form class="formulario">
+          <select class="formulario__campo">
+            <option  class ="formulario__campo"disabled selected>--Seleccione su talla--</option>
+            <option>Chica</option>
+            <option>Mediana</option>
+            <option>Grande</option>
+          </selectd>
+          <input class ="formulario__campo" type="number" placeholder="Cantidad" min="1">
+          <input class="formulario__submit" type="submit" value="Agregar al carrito">
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+  <footer class="footer">
+    <p class="footer__txt">Front End Store - Todos los derechos reservados 2022.</p>
+  </footer>
+</body>
+
+</html>
